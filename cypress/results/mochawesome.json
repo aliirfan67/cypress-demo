@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-02T01:20:33.943Z",
+    "end": "2023-06-02T01:20:59.662Z",
+    "duration": 25719,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a0614cec-3bca-45b6-b3c7-0af1befcd1e4",
+      "title": "",
+      "fullFile": "cypress\\e2e\\spec.cy.js",
+      "file": "cypress\\e2e\\spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d816378a-d04c-4f51-8e3c-980f0577058b",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "passes",
+              "fullTitle": "template spec passes",
+              "timedOut": null,
+              "duration": 13728,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.fedex.com/en-us/tracking.html');\n// cy.get('body > div.banner > div > h1').should('have.text','Kitchen Sink')\n// cy.get('body > div:nth-child(4) > div > div > ul > li:nth-child(1) > ul > li:nth-child(3) > a').click();\n// cy.get('body > div.banner > div > h1').should('have.text','Sink')",
+              "err": {},
+              "uuid": "c0acd348-279f-40b0-adab-6368a82a64ee",
+              "parentUUID": "d816378a-d04c-4f51-8e3c-980f0577058b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c0acd348-279f-40b0-adab-6368a82a64ee"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13728,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

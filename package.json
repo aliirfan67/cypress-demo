@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo for cyp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "irfan",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0"
+  }
+}
